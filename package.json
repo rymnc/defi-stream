@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "ethers": "^5.0.6"
+    "ethers": "^5.0.6",
+    "table": "^5.4.6"
   }
 }

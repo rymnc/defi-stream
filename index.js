@@ -1,4 +1,4 @@
-
+const { table } = require('table')
 const ethers = require('ethers')
 require('dotenv').config()
 
@@ -22,6 +22,13 @@ const getData = async() =>{
     }
     
 }
-getData()
+getData().then(function(){
+    let data=[];
+    for(let key of contractdata.keys()){
+        data.push(key) 
+        console.log(key)
+    }
+    console.log(data)
+})
 
 
