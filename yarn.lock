@@ -409,6 +409,11 @@ anymatch@~3.1.1:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
+arrayify@^1.0.0:
+  version "1.0.0"
+  resolved "https://verdaccio.framework.xyz/arrayify/-/arrayify-1.0.0.tgz#f06a98235b8ef14ca1995992411a9fefb4e49cfc"
+  integrity sha1-8GqYI1uO8UyhmVmSQRqf77TknPw=
+
 astral-regex@^1.0.0:
   version "1.0.0"
   resolved "https://verdaccio.framework.xyz/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
