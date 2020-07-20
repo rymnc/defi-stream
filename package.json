@@ -1,0 +1,19 @@
+{
+  "name": "defi-stream",
+  "version": "1.0.0",
+  "description": "Stream DeFi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaryamannchallani/defi-stream.git"
+  },
+  "author": "Aaryamann Challani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaryamannchallani/defi-stream/issues"
+  },
+  "homepage": "https://github.com/aaryamannchallani/defi-stream#readme"
+}
