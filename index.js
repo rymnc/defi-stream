@@ -21,7 +21,7 @@ function to_poll() {
     data.push(key);
   }
   outputdata.push(data);
-  async function hmm() {
+  async function updatePrice() {
     let prices = [];
     for (let [key, value] of tokenmap) {
       let price = (await axios.get(defaultroute + value + "&vs_currencies=usd"))
@@ -39,7 +39,7 @@ function to_poll() {
       console.log("Startup...");
     }
   }
-  hmm();
+  updatePrice();
 }
 let poller = setInterval(() => {
   to_poll();
