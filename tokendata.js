@@ -3,6 +3,7 @@ let tokenmap = new Map()
     tokenmap.set("synthetix","0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F")
     tokenmap.set("compound","0xc00e94Cb662C3520282E6f5717214004A7f26888")
 
+    tokenmap.set('0x','0xE41d2489571d322189246DaFA5ebDe1F4699F498')
 
 
 module.exports = {
