@@ -1,4 +1,4 @@
-### This Script is a work in progress
+## This Script is a work in progress
 ---
 ## For now it displays price of the cryptocurrencies defined in tokendata by querying the blockchain and Coingecko
 ---
